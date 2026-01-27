@@ -1,0 +1,24 @@
+const accountId = 1455
+let accountName = "John Doe"
+var accountBalance = 2500
+ accountCity = "New York"
+
+//  accountId = 2 // not allowed
+
+accountEmail = "hc@hc.com"
+accountPassword = "245232"
+accountCity = "Lucknow"
+let accountState;
+
+ console.log(accountId);
+ 
+
+ /*
+Prefer not to use var
+becouse of issue in block scope and functional scope
+ */
+
+ console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+ 
+
+ 
